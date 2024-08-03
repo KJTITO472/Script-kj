@@ -96,7 +96,7 @@ GetKeyButton.Parent = frame
 --------------------------------------------------------------------------
 SubmitButton.MouseButton1Click:Connect(function()
     local KeySystem = KeySystem.Text
-    if KeySystem == "KJ" then   
+    if KeySystem == "KJ_OP" then   
 screenGui:Destroy()
 
 getgenv().Setting = { 
